@@ -4,11 +4,11 @@ import Header3 from '../Header/Header3/Header3';
 
 const MainLayout = (props) => {
   return (
-    <>
+    <div className='fixed-nav nav-transparent'>
       <Header3 />
       <main>{props.children}</main>
       <footer>This is the Footer</footer>
-    </>
+    </div>
   );
 };
 
