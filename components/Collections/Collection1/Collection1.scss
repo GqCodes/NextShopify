@@ -1,0 +1,14 @@
+.collection1 {
+  padding: 100px 0;
+
+  &__product-img {
+    background: #edeff5;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 70%;
+    }
+  }
+}
